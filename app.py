@@ -38,3 +38,4 @@ fig = px.box(
     y=[1, 2, 3],
     title="Gráfico de caja",
 )
+st.plotly_chart(fig)
