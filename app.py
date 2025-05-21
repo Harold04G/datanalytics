@@ -16,3 +16,4 @@ fig = px.bar(
     title="Gráfico de barras",
 )
 st.plotly_chart(fig)
+date = st.date_input("Pick a date")
